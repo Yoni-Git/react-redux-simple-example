@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { selectBookAction , deleteBookAction} from '../actions/book-actions'
+import { selectBookAction , deleteBookAction} from '../actions/books-actions'
 import { bindActionCreators } from 'redux'
 
 class BookList extends Component {
