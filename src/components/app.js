@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import BookList from '../containers/book-list'
-import BookBasket from '../containers/book-basket'
+import Book from "../containers/Book/Book";
 
 
 export default class App extends Component {
@@ -8,8 +7,7 @@ export default class App extends Component {
     render() {
     return (
       <div>
-        <BookList />
-        <BookBasket />
+        <Book />
       </div>
     );
   }
